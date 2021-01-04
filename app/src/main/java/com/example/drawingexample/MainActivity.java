@@ -123,7 +123,6 @@ public class MainActivity extends AppCompatActivity {
             float y = event.getY();
             switch(event.getAction()){
                 case MotionEvent.ACTION_DOWN:
-                    path = new Path();
                     path.moveTo(x,y);
                     break;
                 case MotionEvent.ACTION_MOVE:
